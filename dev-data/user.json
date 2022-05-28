@@ -1,0 +1,22 @@
+{
+  "id": "1",
+  "fullName": "Lương Hoàng Lâm",
+  "email": "lam.lh183780@sis.hust.edu.vn",
+  "password": "123456",
+  "status": "active",
+  "type": "student",
+  "phoneNumber": "0123456789",
+  "dob": "11/07/2000",
+  "gender": "male",
+  "id_card": {
+    "number": "20183780",
+    "issued_on": "30/07/2018",
+    "expires_on": "30/07/2022"
+  },
+  "profile": {
+    "institute": "Viện CNTT",
+    "class": "KTMT"
+  },
+  "room_id": "123",
+  "service": {}
+}
