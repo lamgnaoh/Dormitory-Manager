@@ -1,6 +1,6 @@
-const app = require("./app");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
+const app = require("./app");
 dotenv.config({
   path: `${__dirname}/config.env`,
 });
@@ -9,6 +9,7 @@ const DB = process.env.DATABASE.replace(
   "<password>",
   process.env.DATABASE_PASSWORD
 );
+// console.log(DB);
 mongoose
   .connect(DB, {
     useNewUrlParser: true,

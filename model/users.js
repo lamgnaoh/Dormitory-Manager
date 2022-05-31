@@ -18,10 +18,13 @@ const userSchema = new mongoose.Schema({
     maxLength: 50,
     required: [true, "A user must have a password"],
   },
-  status: {
+  photo: {
     type: String,
-    enum: ["authenticated", "not authenticated"],
   },
+  // status: {
+  //   type: String,
+  //   enum: ["authenticated", "not authenticated"],
+  // },
   role: {
     type: String,
     enum: ["admin", "manager", "student"],
@@ -37,20 +40,18 @@ const userSchema = new mongoose.Schema({
     type: String,
     enum: ["male", "female"],
   },
-  profile: {
-    institute: {
-      type: String,
-      enum: ["CNTT-TT", "CK", "CK-DL", "CNSH-CNTP", "DM", "KTQL", "DK-TDH"],
-    },
-    class: {
-      type: String,
-    },
-    schoolYear: {
-      type: Number,
-    },
-    id_card_number: {
-      type: Number,
-    },
+  institute: {
+    type: String,
+    enum: ["CNTT-TT", "CK", "CK-DL", "CNSH-CNTP", "DM", "KTQL", "DK-TDH"],
+  },
+  class: {
+    type: String,
+  },
+  schoolYear: {
+    type: String,
+  },
+  id_card_number: {
+    type: Number,
   },
   room_id: {
     type: mongoose.Schema.Types.ObjectId,

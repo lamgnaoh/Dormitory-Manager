@@ -1,0 +1,443 @@
+[
+  {
+    "schoolYear": ["K62", "K63", "K64"],
+    "description": "Phòng cho nam sinh viên khoá K62 K63 K64",
+    "building": "B1",
+    "room_number": "101",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 3,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K62", "K63", "K64"],
+    "description": "Phòng cho nam sinh viên khoá K62 K63 K64",
+    "building": "B1",
+    "room_number": "102",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 5,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K62", "K63", "K64"],
+    "description": "Phòng cho nam sinh viên khoá K62 K63 K64",
+    "building": "B1",
+    "room_number": "103",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 2,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K62", "K63", "K64"],
+    "description": "Phòng cho nam sinh viên khoá K62 K63 K64",
+    "building": "B1",
+    "room_number": "104",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 4,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K62", "K63", "K64"],
+    "description": "Phòng cho nam sinh viên khoá K62 K63 K64",
+    "building": "B1",
+    "room_number": "105",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 4,
+    "rentMoney": 800
+  },
+  {
+    "schoolYear": ["K62", "K63", "K64"],
+    "description": "Phòng cho nam sinh viên khoá K62 K63 K64",
+    "building": "B1",
+    "room_number": "205",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 6,
+    "rentMoney": 800
+  },
+  {
+    "schoolYear": ["K62", "K63", "K64"],
+    "description": "Phòng cho nam sinh viên khoá K62 K63 K64",
+    "building": "B1",
+    "room_number": "204",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 6,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K63", "K64", "K65"],
+    "description": "Phòng cho nam sinh viên khoá K62 K63 K64",
+    "building": "B1",
+    "room_number": "203",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K63", "K64", "K65"],
+    "description": "Phòng cho nam sinh viên khoá K62 K63 K64",
+    "building": "B1",
+    "room_number": "202",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 5,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K63", "K64", "K65"],
+    "description": "Phòng cho nam sinh viên khoá K62 K63 K64",
+    "building": "B1",
+    "room_number": "201",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K62", "K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K62 K63 K64 K65",
+    "building": "B2",
+    "room_number": "101",
+    "maxNumberOfPeople": 4,
+    "currentNumberOfPeople": 3,
+    "rentMoney": 700
+  },
+  {
+    "schoolYear": ["K62", "K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K62 K63 K64 K65",
+    "building": "B2",
+    "room_number": "102",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 6,
+    "rentMoney": 800
+  },
+  {
+    "schoolYear": ["K62", "K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K62 K63 K64 K65",
+    "building": "B2",
+    "room_number": "103",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 4,
+    "rentMoney": 800
+  },
+  {
+    "schoolYear": ["K62", "K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K62 K63 K64 K65",
+    "building": "B2",
+    "room_number": "104",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K62", "K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K62 K63 K64 K65",
+    "building": "B2",
+    "room_number": "105",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 4,
+    "rentMoney": 700
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K62 K63 K64 K65",
+    "building": "B2",
+    "room_number": "205",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 6,
+    "rentMoney": 800
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K62 K63 K64 K65",
+    "building": "B2",
+    "room_number": "204",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K62 K63 K64 K65",
+    "building": "B2",
+    "room_number": "203",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K62 K63 K64 K65",
+    "building": "B2",
+    "room_number": "202",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 7,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K62 K63 K64 K65",
+    "building": "B2",
+    "room_number": "201",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nam sinh viên khoá K64 K65",
+    "building": "B3",
+    "room_number": "101",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 3,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nam sinh viên khoá K64 K65",
+    "building": "B3",
+    "room_number": "102",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 5,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nam sinh viên khoá K64 K65",
+    "building": "B3",
+    "room_number": "103",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 2,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nam sinh viên khoá K64 K65",
+    "building": "B3",
+    "room_number": "104",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 4,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nam sinh viên khoá K64 K65",
+    "building": "B3",
+    "room_number": "105",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 4,
+    "rentMoney": 800
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nam sinh viên khoá K64 K65",
+    "building": "B3",
+    "room_number": "205",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 6,
+    "rentMoney": 800
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nam sinh viên khoá K64 K65",
+    "building": "B3",
+    "room_number": "204",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nam sinh viên khoá K64 K65",
+    "building": "B3",
+    "room_number": "203",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nam sinh viên khoá K64 K65",
+    "building": "B3",
+    "room_number": "202",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 7,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K64", "K65"],
+    "description": "Phòng cho nam sinh viên khoá K64 K65",
+    "building": "B3",
+    "room_number": "201",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K63 K64 K65",
+    "building": "B4",
+    "room_number": "101",
+    "maxNumberOfPeople": 4,
+    "currentNumberOfPeople": 3,
+    "rentMoney": 700
+  },
+  {
+    "schoolYear": ["K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K63 K64 K65",
+    "building": "B4",
+    "room_number": "102",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 6,
+    "rentMoney": 800
+  },
+  {
+    "schoolYear": ["K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K63 K64 K65",
+    "building": "B4",
+    "room_number": "103",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 4,
+    "rentMoney": 800
+  },
+  {
+    "schoolYear": ["K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K63 K64 K65",
+    "building": "B4",
+    "room_number": "104",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K63 K64 K65",
+    "building": "B4",
+    "room_number": "105",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 4,
+    "rentMoney": 700
+  },
+  {
+    "schoolYear": ["K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K63 K64 K65",
+    "building": "B4",
+    "room_number": "205",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 6,
+    "rentMoney": 800
+  },
+  {
+    "schoolYear": ["K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K63 K64 K65",
+    "building": "B4",
+    "room_number": "204",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K63 K64 K65",
+    "building": "B4",
+    "room_number": "203",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K63 K64 K65",
+    "building": "B4",
+    "room_number": "202",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 7,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K63", "K64", "K65"],
+    "description": "Phòng cho nữ sinh viên khoá K63 K64 K65",
+    "building": "B4",
+    "room_number": "201",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K65"],
+    "description": "Phòng cho nữ sinh viên khoá K65",
+    "building": "B5",
+    "room_number": "102",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 6,
+    "rentMoney": 800
+  },
+  {
+    "schoolYear": ["K65"],
+    "description": "Phòng cho nữ sinh viên khoá K65",
+    "building": "B5",
+    "room_number": "103",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 4,
+    "rentMoney": 800
+  },
+  {
+    "schoolYear": ["K65"],
+    "description": "Phòng cho nữ sinh viên khoá K65",
+    "building": "B5",
+    "room_number": "104",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K65"],
+    "description": "Phòng cho nữ sinh viên khoá K65",
+    "building": "B5",
+    "room_number": "105",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 4,
+    "rentMoney": 700
+  },
+  {
+    "schoolYear": ["K65"],
+    "description": "Phòng cho nữ sinh viên khoá K65",
+    "building": "B5",
+    "room_number": "205",
+    "maxNumberOfPeople": 6,
+    "currentNumberOfPeople": 6,
+    "rentMoney": 800
+  },
+  {
+    "schoolYear": ["K65"],
+    "description": "Phòng cho nữ sinh viên khoá K65",
+    "building": "B5",
+    "room_number": "204",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K65"],
+    "description": "Phòng cho nữ sinh viên khoá K65",
+    "building": "B5",
+    "room_number": "203",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K65"],
+    "description": "Phòng cho nữ sinh viên khoá K65",
+    "building": "B5",
+    "room_number": "202",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 7,
+    "rentMoney": 900
+  },
+  {
+    "schoolYear": ["K65"],
+    "description": "Phòng cho nữ sinh viên khoá K65",
+    "building": "B5",
+    "room_number": "201",
+    "maxNumberOfPeople": 8,
+    "currentNumberOfPeople": 8,
+    "rentMoney": 900
+  }
+]

@@ -2,17 +2,23 @@ const mongoose = require("mongoose");
 const Building = require("./buildings");
 const User = require("./users");
 
+function getPrice(num) {
+  return (num / 1000).valueOf();
+}
+function setPrice(num) {
+  return num * 1000;
+}
 const roomSchema = new mongoose.Schema({
   // đối tượng có thể được đăng kí  phòng
-  roomObject: {
-    gender: {
+  // gender: {
+  //   type: String,
+  //   enum: ["male", "female"],
+  // },
+  schoolYear: [
+    {
       type: String,
-      enum: ["male", "female"],
     },
-    schoolYear: {
-      type: Number,
-    },
-  },
+  ],
   description: {
     type: String,
   },
@@ -20,20 +26,25 @@ const roomSchema = new mongoose.Schema({
     type: Number,
     require: [true, " A room must have a room number"],
   },
-  buiding_id: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "Building",
+  building: {
+    type: String,
     require: [true, " A room must have in a building "],
   },
   maxNumberOfPeople: {
     type: Number,
-    enum: [6, 8],
+    enum: [4, 6, 8],
     default: 8,
     require: [true, " A room must have max number of people"],
   },
   currentNumberOfPeople: {
     type: Number,
-    require: [true, " A room must have max number of people"],
+    require: [true, " A room must have current number of people"],
+    default: 0,
+    validate: {
+      validator: function () {
+        return this.currentNumberOfPeople <= this.maxNumberOfPeople;
+      },
+    },
   },
   rentMoney: {
     type: Number,
@@ -48,11 +59,6 @@ const roomSchema = new mongoose.Schema({
   },
   //   user_id: [mongoose.Schema.Types.ObjectId],
 });
-function getPrice(num) {
-  return (num / 1000).valueOf();
-}
-function setPrice(num) {
-  return num * 1000;
-}
+
 const Room = mongoose.model("Room", roomSchema);
 module.exports = Room;

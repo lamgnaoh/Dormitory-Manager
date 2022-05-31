@@ -6,6 +6,11 @@ const buildingSchema = new mongoose.Schema({
     type: String,
     require: [true, "A building must have name "],
   },
+  gender: {
+    type: String,
+    enum: ["male", "female"],
+    require: [true, "A building must have gender for student "],
+  },
   status: {
     type: String,
     enum: ["active", "inactive"],

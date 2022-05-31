@@ -1,0 +1,32 @@
+[
+  {
+    "name": "B1",
+    "status": "active",
+    "gender": "male",
+    "numberOfRoom": 10
+  },
+  {
+    "name": "B2",
+    "status": "active",
+    "gender": "female",
+    "numberOfRoom": 10
+  },
+  {
+    "name": "B3",
+    "status": "active",
+    "gender": "male",
+    "numberOfRoom": 10
+  },
+  {
+    "name": "B4",
+    "status": "active",
+    "gender": "female",
+    "numberOfRoom": 10
+  },
+  {
+    "name": "B5",
+    "status": "active",
+    "gender": "female",
+    "numberOfRoom": 10
+  }
+]
