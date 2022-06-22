@@ -1,11 +1,25 @@
 const express = require("express");
 const roomController = require("../controller/roomController");
+const authController = require("../controller/authController");
 const Router = express.Router();
 
+Router.route("/availableRoom").get(
+  authController.userAuth,
+  roomController.getAvailableRoom
+);
 Router.route("/")
-  .get(roomController.getAllRoom)
-  .post(roomController.createRoom);
+  .get(
+    authController.userAuth,
+    authController.restrictTo("admin", "manager"),
+    roomController.getAllRoom
+  )
+  .post(
+    authController.userAuth,
+    authController.restrictTo("admin", "manager"),
+    roomController.createRoom
+  );
 Router.route("/:id")
-  .patch(roomController.updateRoom)
-  .delete(roomController.deleteRoom);
+  .get(roomController.getRoomById)
+  .patch(authController.userAuth, roomController.updateRoom)
+  .delete(authController.userAuth, roomController.deleteRoom);
 module.exports = Router;

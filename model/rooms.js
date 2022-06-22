@@ -44,6 +44,8 @@ const roomSchema = new mongoose.Schema({
       validator: function () {
         return this.currentNumberOfPeople <= this.maxNumberOfPeople;
       },
+      message:
+        "Current number of people must be less than or equal to max number of people",
     },
   },
   rentMoney: {
@@ -59,6 +61,8 @@ const roomSchema = new mongoose.Schema({
   },
   //   user_id: [mongoose.Schema.Types.ObjectId],
 });
-
+// roomSchema.methods.comparePeople = function () {
+//   return this.currentNumberOfPeople <= this.maxNumberOfPeople;
+// };
 const Room = mongoose.model("Room", roomSchema);
 module.exports = Room;

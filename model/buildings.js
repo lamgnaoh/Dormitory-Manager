@@ -18,11 +18,11 @@ const buildingSchema = new mongoose.Schema({
   numberOfRoom: {
     type: Number,
   },
-  manager_id: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "User",
-    required: true,
-  },
+  // manager_id: {
+  //   type: mongoose.Schema.Types.ObjectId,
+  //   ref: "User",
+  //   required: true,
+  // },
 });
 
 const Building = mongoose.model("Building", buildingSchema);
