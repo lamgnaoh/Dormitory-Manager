@@ -4,6 +4,7 @@ const validator = require("validator");
 const Room = require("./rooms");
 const Building = require("./buildings");
 const ReportForm = require("./reportForm");
+const RegistrationForm = require("./registrationForm");
 
 const userSchema = new mongoose.Schema({
   fullName: {
@@ -98,9 +99,10 @@ const userSchema = new mongoose.Schema({
     ref: "Room",
   },
   // reported_id: [{ type: mongoose.Schema.Types.ObjectId, ref: "ReportForm" }],
-  // registration_id: {
-  //   type: mongoose.Schema.Types.ObjectId,
-  // },
+  registration_id: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "RegistrationForm",
+  },
   building_id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Building",

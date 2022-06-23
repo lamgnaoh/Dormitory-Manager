@@ -13,7 +13,7 @@ router
   );
 router
   .route("/acceptRequest/:id")
-  .post(
+  .patch(
     authController.userAuth,
     authController.restrictTo("admin", "manager"),
     registrationController.acceptRequest
