@@ -7,6 +7,7 @@ Router.route("/availableRoom").get(
   authController.userAuth,
   roomController.getAvailableRoom
 );
+
 Router.route("/")
   .get(
     authController.userAuth,

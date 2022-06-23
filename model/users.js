@@ -43,6 +43,7 @@ const userSchema = new mongoose.Schema({
     type: String,
     default: "student",
     enum: ["admin", "manager", "student"],
+    required: true,
   },
   phoneNumber: {
     type: String,
@@ -67,8 +68,30 @@ const userSchema = new mongoose.Schema({
   },
   id_card_number: {
     type: Number,
-    require: true,
-    unique: true,
+    // default: null,
+    required: [
+      function () {
+        return this.role === "student";
+      },
+      "A student must have an id card number",
+    ],
+    // unique: [
+    //   function () {
+    //     return this.role === "student";
+    //   },
+    //   "An id card number must be unique",
+    // ],
+    validate: {
+      validator: async function (val) {
+        if (this.role === "student") {
+          const count = await mongoose.models.User.countDocuments({
+            id_card_number: val,
+          });
+          return !count;
+        }
+      },
+      message: "An id card number already exists",
+    },
   },
   room_id: {
     type: mongoose.Schema.Types.ObjectId,

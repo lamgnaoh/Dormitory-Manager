@@ -68,6 +68,7 @@ exports.getAvailableRoom = async (req, res, next) => {
     next(err);
   }
 };
+
 // create room
 exports.createRoom = async (req, res, next) => {
   try {

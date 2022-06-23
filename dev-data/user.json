@@ -18,6 +18,6 @@
     "email": "a.nguyenvan@hust.edu.vn",
     "password": "test1234",
     "passwordConfirm": "test1234",
-    "role": "admin"
+    "role": "manager"
   }
 ]
