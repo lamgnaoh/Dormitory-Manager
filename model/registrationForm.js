@@ -16,10 +16,14 @@ const registrationFormSchema = new mongoose.Schema({
     type: Date,
     default: null,
   },
+  time_reject: {
+    type: Date,
+    default: null,
+  },
 
   status: {
     type: String,
-    enum: ["pending", "accepted", "reject"],
+    enum: ["pending", "accepted", "rejected"],
     default: "pending",
   },
   user: {

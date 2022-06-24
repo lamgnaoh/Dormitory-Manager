@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const Room = require("./rooms");
 const User = require("./users");
 
-const waterInvoiceScheam = new mongoose.Schema({
+const InvoiceScheam = new mongoose.Schema({
   room_id: {
     type: mongoose.Schema.Types.ObjectId,
     ref: "Room",
@@ -10,6 +10,10 @@ const waterInvoiceScheam = new mongoose.Schema({
   },
   description: {
     type: String,
+  },
+  type: {
+    type: String,
+    enum: ["water", "electric"],
   },
   unit_price: {
     type: Number,
@@ -41,5 +45,5 @@ const waterInvoiceScheam = new mongoose.Schema({
     ref: "User",
   },
 });
-const WaterInvoice = mongoose.model("WaterInvoice", waterInvoiceScheam);
-module.exports = WaterInvoice;
+const Invoice = mongoose.model("ElectricInvoice", InvoiceScheam);
+module.exports = Invoice;

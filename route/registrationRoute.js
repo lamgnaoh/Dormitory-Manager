@@ -18,4 +18,11 @@ router
     authController.restrictTo("admin", "manager"),
     registrationController.acceptRequest
   );
+router
+  .route("/rejectRequest/:id")
+  .patch(
+    authController.userAuth,
+    authController.restrictTo("admin", "manager"),
+    registrationController.rejectRequest
+  );
 module.exports = router;
